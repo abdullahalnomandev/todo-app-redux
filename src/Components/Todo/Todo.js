@@ -6,7 +6,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 const Todo = (props) => {
   console.log("tooooo", props);
-  const { todos, deleteTodo, toggleTodo } = props;
+  const { todos, deleteTodo } = props;
 
   const style = {
     float: "left",
